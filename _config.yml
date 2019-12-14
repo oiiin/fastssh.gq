@@ -24,16 +24,15 @@ collections:
 facebook:
 output: true
     layout: "fb"
-    permalink: /:path/
+ permalink: /:path/
 link2app:
 output: true
-    layout: 
-     layout: "link2app"
-    permalink: /:path/
+layout: "link2app"
+permalink: /:path/
 oiin-cofigs:
 output: true
 layout: "oiin-layout"
-    permalink: /:path   
+permalink: /:path   
 # Site settings
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
