@@ -42,6 +42,10 @@ defaults:
     values:
         layout: "oiin-layout"
     permalink: /:path/
+    #
+    collections:
+    facebook:
+    output: true 
 # Site settings
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
