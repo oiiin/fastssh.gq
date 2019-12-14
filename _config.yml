@@ -16,13 +16,15 @@ plugins:
 - jekyll-feed
 - jemoji
 collections:
- - output: true
 facebook:
- permalink: /:path/
+ output: true
+  permalink: /:path/
 link2app:
-permalink: /:path/
+ output: true
+  permalink: /:path/
 oiin-cofigs:
-permalink: /:path   
+ output: true
+  permalink: /:path/  
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
