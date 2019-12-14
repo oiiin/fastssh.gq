@@ -19,6 +19,10 @@ title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
 logo: "https://shares.netlify.com/img/androids.png"
+collections:
+facebook:
+ output: true
+ permalik: /:path/
 baseurl: ''
 compress_html:
   clippings: all
@@ -28,7 +32,3 @@ compress_html:
     envs: [local]
   blanklines: false
   startings: [html, head, body] 
-collections:
-facebook:
- output: true
- permalik: /:path/
