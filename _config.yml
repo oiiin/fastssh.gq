@@ -1,15 +1,11 @@
-# Set theme
-theme: alembic-jekyll-theme
-# 
+theme: alembic-jekyll-theme 
 exclude:
 -
  _redirects
-# File excludes
 exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
-# Set plugins
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -19,28 +15,20 @@ plugins:
 - jekyll-default-layout
 - jekyll-feed
 - jemoji
-# defaults
 collections:
 facebook:
 output: true
-#layout: "fb"
  permalink: /:path/
 link2app:
 output: true
-#layout: "link2app"
 permalink: /:path/
 oiin-cofigs:
 output: true
-#layout: "oiin-layout"
 permalink: /:path   
-# Site settings
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
-url: 'https://shares.netlify.com'
-# permalink: pretty
 logo: "https://shares.netlify.com/img/androids.png"
-#     # 
 baseurl: ''
 compress_html:
   clippings: all
