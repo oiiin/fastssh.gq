@@ -23,12 +23,6 @@ collections:
 facebook:
  output: true
 permalik: /:path/
- defaults:
-  - scope:
-      path: ""
-      type: "facebook"
-    values:
-      layout: fb
 baseurl: ''
 compress_html:
   clippings: all
