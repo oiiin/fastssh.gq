@@ -20,7 +20,7 @@ plugins:
 - jekyll-feed
 - jemoji
 collections:
-    output: true
+  - output: true
 # defaults
 defaults:
   -
