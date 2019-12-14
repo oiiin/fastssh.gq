@@ -22,7 +22,7 @@ logo: "https://shares.netlify.com/img/androids.png"
 collections:
 facebook:
  output: true
-permalik: /:path/
+permalik: /ll/:title:output_ext
 baseurl: ''
 compress_html:
   clippings: all
