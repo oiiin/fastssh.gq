@@ -20,10 +20,8 @@ facebook:
  output: true
 link2app:
  output: true
-  permalink: /apps/:name
 oiin-cofigs:
  output: true
-  permalink: /oiin/:name 
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
