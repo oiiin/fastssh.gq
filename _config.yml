@@ -16,7 +16,7 @@ plugins:
 - jekyll-feed
 - jemoji
 collections:
- output: true
+ - output: true
 facebook:
  permalink: /:path/
 link2app:
