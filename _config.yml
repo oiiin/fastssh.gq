@@ -1,4 +1,14 @@
-theme: alembic-jekyll-theme 
+permalink: /my/:title:output_ext
+collections:
+facebook:
+ output: true
+ defaults:
+  - scope:
+      path: ""
+      type: "facebook"
+    values:
+      layout: fb
+   theme: alembic-jekyll-theme 
 exclude:
 -
  _redirects
@@ -15,16 +25,6 @@ plugins:
 - jekyll-default-layout
 - jekyll-feed
 - jemoji
-collections:
-facebook:
- output: true
-       permalink: /my/:title:output_ext
- defaults:
-  - scope:
-      path: ""
-      type: "facebook"
-    values:
-      layout: fb
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
