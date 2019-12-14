@@ -29,7 +29,7 @@ facebook:
       path: ""
       type: "facebook"
     values:
-      layout: animal
+      layout: fb
 baseurl: ''
 compress_html:
   clippings: all
