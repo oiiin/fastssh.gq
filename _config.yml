@@ -20,13 +20,12 @@ plugins:
 - jekyll-feed
 - jemoji
 # defaults
-defaults:
+collections:
   -
     scope:
       path: ""		
       type: "facebook"
     values:
-    ouptput: true
     layout: "fb"
     permalink: /:path/
   -
@@ -34,7 +33,6 @@ defaults:
       path: ""
       type: "link2app"
     values:
-    ouptput: true
         layout: "link2app"
     permalink: /:path/
       -
@@ -42,7 +40,6 @@ defaults:
       path: ""
       type: "oiin-cofigs"
     values:
-    ouptput: true
         layout: "oiin-layout"
     permalink: /:path/
     
