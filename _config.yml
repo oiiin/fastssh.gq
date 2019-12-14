@@ -28,7 +28,7 @@ oiin-cofigs:
       type: "facebook"
     values:
       layout: fb
-      permalink: /my/:name
+      permalink: /my/:title:output_ext
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
