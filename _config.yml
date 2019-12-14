@@ -38,4 +38,3 @@ facebook:
       type: "facebook"
     values:
       layout: fb
-permalink: /:title:output_ext
