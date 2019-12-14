@@ -22,10 +22,10 @@ logo: "https://shares.netlify.com/img/androids.png"
 collections:
 facebook:
  output: true
-        permalik: /:title:output_ext
+        permalik: /apps/:path/
  defaults:
   - scope:
-      path: "/o/"
+      path: ""
       type: "facebook"
     values:
       layout: fb
