@@ -23,6 +23,13 @@ collections:
 facebook:
  output: true
  permalik: /my-animal/:name
+ 
+ defaults:
+  - scope:
+      path: ""
+      type: "facebook"
+    values:
+      layout: animal
 baseurl: ''
 compress_html:
   clippings: all
