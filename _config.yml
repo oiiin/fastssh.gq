@@ -20,8 +20,9 @@ description: 'Shares Android apps & Tutorials'
 baseurl: ''
 logo: "https://shares.netlify.com/img/androids.png"
 collections:
+facebook:
  output: true
-        permalik: /apps/:title:output_ext
+        permalik: /:title:output_ext
  defaults:
   - scope:
       path: "/o/"
