@@ -1,3 +1,55 @@
+# Set theme
+theme: alembic-jekyll-theme
+# 
+exclude:
+-
+ _redirects
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+# defaults
+defaults:
+  -
+    scope:
+      path: ""		
+      type: "facebook"
+    values:
+    layout: "fb"
+    permalink: /:path/
+  -
+    scope:
+      path: ""
+      type: "link2app"
+    values:
+        layout: "link2app"
+    permalink: /:path/
+      -
+    scope:
+      path: ""
+      type: "oiin-cofigs"
+    values:
+        layout: "oiin-layout"
+    permalink: /:path/
+# Site settings
+title: 'shares'
+description: 'Shares Android apps & Tutorials'
+baseurl: ''
+url: 'https://shares.netlify.com'
+# permalink: pretty
+logo: "https://shares.netlify.com/img/androids.png"
+#     # 
 baseurl: ''
 compress_html:
   clippings: all
@@ -6,4 +58,4 @@ compress_html:
   ignore:
     envs: [local]
   blanklines: false
-  # startings: [html, head, body]
+  startings: [html, head, body] 
