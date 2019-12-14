@@ -22,6 +22,12 @@ link2app:
  output: true
 oiin-cofigs:
  output: true
+ defaults:
+  - scope:
+      path: ""
+      type: "facebook"
+    values:
+      layout: fb
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
