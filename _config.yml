@@ -1,8 +1,8 @@
-permalink: /my/:title:output_ext
 collections:
 facebook:
  output: true
  defaults:
+-  scope:
       path: ""
       type: "facebook"
     values:
