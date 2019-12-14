@@ -18,17 +18,13 @@ plugins:
 collections:
 facebook:
  output: true
-link2app:
- output: true
-oiin-cofigs:
- output: true
+       permalink: /my/:title:output_ext
  defaults:
   - scope:
       path: ""
       type: "facebook"
     values:
       layout: fb
-      permalink: /my/:title:output_ext
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
