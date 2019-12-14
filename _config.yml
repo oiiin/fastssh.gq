@@ -31,10 +31,4 @@ compress_html:
 collections:
 facebook:
  output: true
- 
- defaults:
--  scope:
-      path: "/_facebook/"
-      type: "facebook"
-    values:
-      layout: fb
+ permalik: /:path/
