@@ -18,7 +18,6 @@ plugins:
 collections:
 facebook:
  output: true
-  permalink: /:title:output_ext
 link2app:
  output: true
   permalink: /apps/:name
