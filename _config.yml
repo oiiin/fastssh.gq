@@ -3,7 +3,6 @@ collections:
 facebook:
  output: true
  defaults:
-  - scope:
       path: ""
       type: "facebook"
     values:
