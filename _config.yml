@@ -22,7 +22,7 @@ logo: "https://shares.netlify.com/img/androids.png"
 collections:
 facebook:
  output: true
- permalik: /my-animal/:name
+ permalik: /:basename
  
  defaults:
   - scope:
