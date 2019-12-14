@@ -23,15 +23,15 @@ plugins:
 collections:
 facebook:
 output: true
-    layout: "fb"
+#layout: "fb"
  permalink: /:path/
 link2app:
 output: true
-layout: "link2app"
+#layout: "link2app"
 permalink: /:path/
 oiin-cofigs:
 output: true
-layout: "oiin-layout"
+#layout: "oiin-layout"
 permalink: /:path   
 # Site settings
 title: 'shares'
