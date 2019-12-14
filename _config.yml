@@ -22,7 +22,6 @@ logo: "https://shares.netlify.com/img/androids.png"
 collections:
 facebook:
  output: true
- permalik: /:basename
  defaults:
   - scope:
       path: "/o/"
