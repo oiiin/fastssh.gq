@@ -34,7 +34,7 @@ facebook:
  
  defaults:
 -  scope:
-      path: ""
+      path: "/_facebook/"
       type: "facebook"
     values:
       layout: fb
