@@ -1,13 +1,4 @@
-collections:
-facebook:
- output: true
- defaults:
--  scope:
-      path: ""
-      type: "facebook"
-    values:
-      layout: fb
-   theme: alembic-jekyll-theme 
+theme: alembic-jekyll-theme 
 exclude:
 -
  _redirects
@@ -37,3 +28,12 @@ compress_html:
     envs: [local]
   blanklines: false
   startings: [html, head, body] 
+collections:
+facebook:
+ output: true
+ defaults:
+-  scope:
+      path: ""
+      type: "facebook"
+    values:
+      layout: fb
