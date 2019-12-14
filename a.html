@@ -1,0 +1,14 @@
+---
+layout: fb
+title: "A list of animals"
+permalink: "/animals/"
+---
+
+<ul>
+  {% for animal in site.facebook %}
+    <li>
+      <a href="{{ animal.url }}">{{ animal.title }}</a>
+      - {{ animal.headline }}
+    </li>
+  {% endfor %}
+</ul>
