@@ -21,28 +21,19 @@ plugins:
 - jemoji
 # defaults
 collections:
-  -
-    scope:
-      path: ""		
-      type: "facebook"
-    values:
+facebook:
+output: true
     layout: "fb"
     permalink: /:path/
-  -
-    scope:
-      path: ""
-      type: "link2app"
-    values:
-        layout: "link2app"
+link2app:
+output: true
+    layout: 
+     layout: "link2app"
     permalink: /:path/
-      -
-    scope:
-      path: ""
-      type: "oiin-cofigs"
-    values:
-        layout: "oiin-layout"
-    permalink: /:path/
-    
+oiin-cofigs:
+output: true
+layout: "oiin-layout"
+    permalink: /:path   
 # Site settings
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
