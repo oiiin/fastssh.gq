@@ -18,13 +18,13 @@ plugins:
 collections:
 facebook:
  output: true
-  permalink: /:path/
+  permalink: /:name
 link2app:
  output: true
-  permalink: /:path/
+  permalink: /apps/:name
 oiin-cofigs:
  output: true
-  permalink: /:path/  
+  permalink: /oiin/:name 
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
 baseurl: ''
