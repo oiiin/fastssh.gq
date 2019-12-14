@@ -19,8 +19,6 @@ plugins:
 - jekyll-default-layout
 - jekyll-feed
 - jemoji
-collections:
-  - output: true
 # defaults
 defaults:
   -
@@ -44,6 +42,7 @@ defaults:
     values:
         layout: "oiin-layout"
     permalink: /:path/
+    
 # Site settings
 title: 'shares'
 description: 'Shares Android apps & Tutorials'
