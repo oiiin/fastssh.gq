@@ -31,6 +31,7 @@ compress_html:
 collections:
 facebook:
  output: true
+ 
  defaults:
 -  scope:
       path: ""
